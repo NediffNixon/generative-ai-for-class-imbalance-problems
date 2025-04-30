@@ -32,19 +32,19 @@ pip install -r requirements.txt
 ---
 
 ## 📊 Example Scripts
-Example notebook scripts (in "example_notebooks" folder) are available to test the implementation.
-Data correpoinding to the notebook scripts are in "data" folder.
+- Example notebook scripts (in "example_notebooks" folder) are available to test the implementation.
+- Data correpoinding to the notebook scripts are in "data" folder.
 
 ## 📝 Notes
-SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
+- SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
 
-The GAN is trained only on the minority class, not the full dataset. This ensures it focuses on capturing that class's structure.
+- The GAN is trained only on the minority class, not the full dataset. This ensures it focuses on capturing that class's structure.
 
-You may need to balance diversity vs. overfitting when generating samples from the GAN—early stopping and validation is key.
+- You may need to balance diversity vs. overfitting when generating samples from the GAN—early stopping and validation is key.
 
-The synthetic data should always be validated visually or statistically before training.
+- The synthetic data should always be validated visually or statistically before training.
 
-This approach is not always better than SMOTE or GANs alone—evaluate based on your dataset.
+- This approach is not always better than SMOTE or GANs alone—evaluate based on your dataset.
 
 ## 🛠️ Technologies Used
 Python
