@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## 📊 Example Scripts
 Example notebook scripts (in example_notebooks folder) are available to test the implementation.
 
-📝 Notes
+## 📝 Notes
 SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
 
 The GAN is trained only on the minority class, not the full dataset. This ensures it focuses on capturing that class's structure.
@@ -45,7 +45,7 @@ The synthetic data should always be validated visually or statistically before t
 
 This approach is not always better than SMOTE or GANs alone—evaluate based on your dataset.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Python
 
 scikit-learn
