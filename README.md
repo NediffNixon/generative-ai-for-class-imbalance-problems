@@ -1,4 +1,4 @@
-# Generative Adversarial Networks (GANs) for class imbalance problems in Machine Learning
+# Two-Step Approach to Class Imbalance using SMOTE and GANs ⚖️🤖
 
 This project explores a hybrid data augmentation strategy using **SMOTE (Synthetic Minority Over-sampling Technique)** followed by a **Generative Adversarial Network (GAN)** to address severe class imbalance in classification tasks.
 
