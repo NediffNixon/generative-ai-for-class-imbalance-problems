@@ -53,3 +53,6 @@ scikit-learn
 imbalanced-learn (SMOTE)
 
 TensorFlow (GAN implementation)
+
+## 📄 License
+This project is licensed under the MIT License.
