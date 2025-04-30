@@ -32,7 +32,8 @@ pip install -r requirements.txt
 ---
 
 ## 📊 Example Scripts
-Example notebook scripts (in example_notebooks folder) are available to test the implementation.
+Example notebook scripts (in "example_notebooks" folder) are available to test the implementation.
+Data correpoinding to the notebook scripts are in "data" folder.
 
 ## 📝 Notes
 SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
