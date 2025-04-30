@@ -1,16 +1,17 @@
 # Generative Adversarial Networks (GANs) for class imbalance problems in Machine Learning
 
-A deep learning dissertation project to demonstrate a two-step approach for class imbalance problems in machine learning using SMOTE and GANs.
+This project explores a hybrid data augmentation strategy using **SMOTE (Synthetic Minority Over-sampling Technique)** followed by a **Generative Adversarial Network (GAN)** to address severe class imbalance in classification tasks.
+
+The goal is to improve model generalisation on minority classes by leveraging the strengths of both classical oversampling and generative modelling.
 
 ---
 
-## 🚀 Features
+## 🧠 Overview
 
-- Uses SMOTE and GANs to produce diverse synthetic samples for under represented class with diverse imbalance ratios.
-- Implemented using Tensorflow, by default runs on GPU.
-- Works with any labelled data source.
-- Sample scripts for 5 different data sources with different class imbalance ratios.
-- Well-documented report available as "final_report.pdf"
+Class imbalance remains a major challenge in many real-world datasets, where some classes are underrepresented, leading to biased models. This project proposes:
+
+1. **Step 1 – SMOTE**: Generate initial synthetic samples using nearest neighbours interpolation.
+2. **Step 2 – GAN**: Further enhance the minority class with more realistic, high-variance synthetic samples learned by a GAN model trained only on the minority class.
 
 ---
 
@@ -33,9 +34,22 @@ pip install -r requirements.txt
 ## 📊 Example Scripts
 Example notebook scripts (in example_notebooks folder) are available to test the implementation.
 
-## NOTE
-Some datasets are not able in "data" folder because of their large size.
+📝 Notes
+SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
 
-## 🛠️ Technologies
+The GAN is trained only on the minority class, not the full dataset. This ensures it focuses on capturing that class's structure.
+
+You may need to balance diversity vs. overfitting when generating samples from the GAN—early stopping and validation is key.
+
+The synthetic data should always be validated visually or statistically before training.
+
+This approach is not always better than SMOTE or GANs alone—evaluate based on your dataset.
+
+🛠️ Technologies Used
 Python
-TensorFlow
+
+scikit-learn
+
+imbalanced-learn (SMOTE)
+
+TensorFlow (GAN implementation)
