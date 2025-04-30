@@ -4,6 +4,8 @@ This project explores a hybrid data augmentation strategy using **SMOTE (Synthet
 
 The goal is to improve model generalisation on minority classes by leveraging the strengths of both classical oversampling and generative modelling.
 
+> 🏅 This work received **Distinction** as part of my academic submission at the University of Nottingham.
+
 ---
 
 ## 🧠 Overview
