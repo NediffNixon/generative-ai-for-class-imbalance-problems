@@ -35,3 +35,7 @@ Example notebook scripts (in example_notebooks folder) are available to test the
 
 ## NOTE
 Some datasets are not able in "data" folder because of their large size.
+
+## 🛠️ Technologies
+Python
+TensorFlow
