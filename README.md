@@ -4,13 +4,13 @@ This project explores a hybrid data augmentation strategy using **SMOTE (Synthet
 
 The goal is to improve model generalisation on minority classes by leveraging the strengths of both classical oversampling and generative modelling.
 
-> 🏅 This work received **Distinction** as part of my academic submission at the University of Nottingham.
+> This work received **Distinction** as part of my academic submission at the University of Nottingham.
 
-> 📘 A detailed explanation of the methodology and results is available in the [final_report.pdf](final_report.pdf) included in this repository.
+> A detailed explanation of the methodology and results is available in the [final_report.pdf](final_report.pdf) included in this repository.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Class imbalance remains a major challenge in many real-world datasets, where some classes are underrepresented, leading to biased models. This project proposes:
 
@@ -19,7 +19,7 @@ Class imbalance remains a major challenge in many real-world datasets, where som
 
 ---
 
-## 📦 Installation (Pip)
+## Installation (Pip)
 
 ```bash
 # Clone the repo
@@ -35,11 +35,11 @@ pip install -r requirements.txt
 ```
 ---
 
-## 📊 Example Scripts
+## Example Scripts
 - Example notebook scripts (in "example_notebooks" folder) are available to test the implementation.
 - Data correpoinding to the notebook scripts are in "data" folder.
 
-## 📝 Notes
+## Notes
 - SMOTE works well when classes are not extremely sparse, but it can create noisy points if not tuned carefully (e.g., number of neighbors).
 
 - The GAN is trained only on the minority class, not the full dataset. This ensures it focuses on capturing that class's structure.
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 - This approach is not always better than SMOTE or GANs alone—evaluate based on your dataset.
 
-## 🛠️ Technologies Used
+## Technologies Used
 Python
 
 scikit-learn
