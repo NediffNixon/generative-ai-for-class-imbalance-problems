@@ -19,7 +19,7 @@ Class imbalance remains a major challenge in many real-world datasets, where som
 
 ---
 
-## 📦 Installation
+## 📦 Installation (Pip)
 
 ```bash
 # Clone the repo
@@ -59,5 +59,5 @@ imbalanced-learn (SMOTE)
 
 TensorFlow (GAN implementation)
 
-## 📄 License
-This project is licensed under the MIT License.
+## License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
