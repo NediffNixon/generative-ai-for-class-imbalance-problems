@@ -6,7 +6,7 @@ The goal is to improve model generalisation on minority classes by leveraging th
 
 > This work received **Distinction** as part of my academic submission at the University of Nottingham.
 
-> A detailed explanation of the methodology and results is available in the [final_report.pdf](final_report.pdf) included in this repository.
+> A detailed explanation of the methodology and results is available in the [final_report.pdf](docs/final_report.pdf) included in this repository.
 
 ---
 
